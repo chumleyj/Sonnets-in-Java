@@ -6,27 +6,26 @@ The program I wrote displays Shakespeare's sonnets. The program begins by asking
 
 The program uses a Sonnet class to store, format, and display individual sonnets. If reading from a local file, the program creates a HashMap with instances of each sonnet as the values. If reading from Firestore, the program queries Firestore for the specific sonnet document then creates an instance of a Sonnet object from that information.
 
+The Firestore NoSQL database has a collection called "sonnets" that contains a unique document for each sonnet. Each document contains the name of the sonnet, its number, the number of lines, and the text of the sonnet. 
+
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
 * IntelliJ IDEA 2021.3.2 (Community Edition)
-
-* Maven
-
+* Maven v3.8.1
 * Java
-  * firebase-admin v8.1.0
-
+    * firebase-admin v8.1.0
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Google Cloud Firestore Documentation](https://cloud.google.com/firestore/docs)
+* [Google Cloud Firestore Java API](https://googleapis.dev/java/google-cloud-firestore/latest/overview-summary.html)
+* [Apache Maven Project](https://maven.apache.org/what-is-maven.html)
+* [Codecademy Java for Programmers Course](https://www.codecademy.com/learn/java-for-programmers)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Add more content, such as some of Shakespeare's plays or poems by other authors.
+* Update the Sonnet class to get more detail about the sonnet, such as word count, character counts, etc. to allow analysis of the sonnets.
+* Add audio files of each sonnet being read that can be played instead of just displaying text.
