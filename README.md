@@ -1,12 +1,10 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This is a demonstration project I used to learn the basics of coding in Java. My goal was to become familiar with the basics of the language, with stretch goals of reading from a file and connecting to a database.
 
-{Provide a description the software that you wrote to demonstrate the Java language.}
+The program I wrote displays Shakespeare's sonnets. The program begins by asking the user whether to read sonnets from a local file or from a cloud database (Cloud Firestore). After this, the user inputs a sonnet number and the program displays that sonnet.
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
+The program uses a Sonnet class to store, format, and display individual sonnets. If reading from a local file, the program creates a HashMap with instances of each sonnet as the values. If reading from Firestore, the program queries Firestore for the specific sonnet document then creates an instance of a Sonnet object from that information.
 
 [Software Demo Video](http://youtube.link.goes.here)
 
