@@ -8,7 +8,7 @@ The program uses a Sonnet class to store, format, and display individual sonnets
 
 The Firestore NoSQL database has a collection called "sonnets" that contains a unique document for each sonnet. Each document contains the name of the sonnet, its number, the number of lines, and the text of the sonnet. 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/uv7H9kW8op8)
 
 # Development Environment
 
