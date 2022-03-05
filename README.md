@@ -14,8 +14,10 @@ The Firestore NoSQL database has a collection called "sonnets" that contains a u
 
 * IntelliJ IDEA 2021.3.2 (Community Edition)
 * Maven v3.8.1
-* Java
+* Java v17.0.2
     * firebase-admin v8.1.0
+    * slf4j-api v1.7.32
+    * slf4j-simple v.1.7.32
 
 # Useful Websites
 
